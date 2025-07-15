@@ -3,7 +3,7 @@
     <h1>AlDente - Battery Care & Monitoring</h1>
 </div>
 
-_MacOS menu bar tool to limit maximum charging percentage_
+_MacOS menu bar tool to limit maximum charging percentage and improve battery lifespan_
 
 #### Don't overcook your battery! Keep it fresh and chewy with AlDente.
 
@@ -31,19 +31,23 @@ You can download the app from GitHub: <https://github.com/davidwernhart/AlDente/
 An installation guide can be found on our website:[Installation Guide](https://apphousekitchen.com/installation-guide/)
 
 ## How to use
-When the installation is finished, enter your desired max. charging percentage by clicking on the 🍝 icon on your menu bar. Usually, the operating system will take a minute or two to register the changes, so be patient. You can check if it's working by setting the max. percentage to e.g., 80%. After a while, clicking on your battery icon will report "Battery is not charging" if you have more than ≈73% left, even though your charger is connected. Notice that in this state, your MacBook is still powered by the charger, but the battery is not charging anymore.
+When the installation is finished, enter your desired max. charging percentage by clicking on the AlDente icon on your menu bar. Usually, the operating system will take a minute or two to register the changes, so be patient. You can check if it's working by setting the max. percentage to e.g., 80%. After a while, clicking on your battery icon will report "Battery is not charging" if you have more than ≈73% left, even though your charger is connected. Notice that in this state, your MacBook is still powered by the charger, but the battery is bypassed and not charging anymore.
 
-IMPORTANT: Keeping your battery at a lower percentage, such as under 80%, for weeks without doing full cycles (100%-0%) can result in a disturbed battery calibration. When this happens, your MacBook might turn off with 40-50% left or your battery capacity will drop significantly. However, this is only due to a disturbed battery calibration and not because of a faulty or degraded battery. To avoid this issue, we recommend doing at least one full cycle (0%-100%) every two weeks. Even if your battery calibration gets disturbed, doing 4+ full cycles will recalibrate your battery, and the capacity will go up again.
+IMPORTANT: Keeping your battery at a lower percentage, such as under 80%, for weeks without doing full cycles (100%-0%) can result in a disturbed battery calibration. When this happens, your MacBook might turn off with 40-50% left, or your battery capacity will drop significantly. However, this is only due to a disturbed battery calibration and not because of a faulty or degraded battery. To avoid this issue, we recommend doing at least one full cycle (0%-100%) every two weeks. Even if your battery calibration gets disturbed, doing 4+ full cycles will recalibrate your battery, and the capacity will go up again.
 
 ## Support
 * Most questions are already answered on our [FAQ page](https://apphousekitchen.com/faq/) or on our [blog](https://apphousekitchen.com/blog/). Check them out!
 * E-mail support is only available for AlDente Pro customers. Check out our [support page](https://apphousekitchen.com/support/) if you want to contact us.
-* Due to limited resources, we are not able to provide support to AlDente Free users or here in Github.
+* Due to limited resources, we are not able to provide support to AlDente Free users or here on GitHub.
 
 ## Other tools used in this project:
 * <https://github.com/beltex/SMCKit>
 * <https://github.com/sindresorhus/LaunchAtLogin>
 * <https://github.com/andreyvit/create-dmg>
+
+## Closed‑Source Notice
+
+This project is no longer open source. Although the GitHub repository contains legacy code and archived releases, the current version of the software is proprietary and closed‑source.
 
 ## Disclaimer:
 I do not take any responsibility for any sort of damage as a result of using this tool! Although this had no negative side effects for me and thousands of others, AlDente still taps into some very low-level system functions that are not meant to be tampered with. Use it at your own risk!
